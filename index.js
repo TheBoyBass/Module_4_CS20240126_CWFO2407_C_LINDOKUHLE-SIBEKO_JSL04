@@ -53,6 +53,11 @@ let currentHour = 22;
 // Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
 // Otherwise, print "Better stick to water."
+if (currentHour >7 && currentHour < 24){
+    console.log("Unleash the beast!");
+}else{
+    console.log("Better stick to water.");
+}
 
 
 
